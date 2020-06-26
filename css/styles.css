@@ -1,0 +1,88 @@
+/* *,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #fbd7e3;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fcdde8;
+    font-size: calc(1em + 15vw);
+    font-weight: 900;
+    text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1, 0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca, 0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0, 0.035em 0.035em 0 #f9c0d3;
+}
+
+h1 :hover {
+    font-size: calc(1em + 5vw);
+} */
+
+
+/* style 2  */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+body,
+html {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h1 {
+    font-size: 15rem;
+    text-align: center;
+    height: 90vh;
+    line-height: 90vh;
+    color: #fcedd8;
+    background: #d52e3f;
+    font-family: 'Anton', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b, 20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b, 35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
+    /* text-shadow: 5px 5px 0px #c11a2b, 10px 10px 0px#c11a2b, 15px 15px 0px #c11a2b, 20px 20px 0px #c11a2b, 25px 25px 0px #052939, 30px 30px 0px #017e7f, 35px 35px 0px #46b59b, 40px 40px 0px #efa032, 45px 45px 0px #eb452b; */
+}
+
+
+/* h1:hover {
+    text-shadow: 5px 5px 0px #c11a2b, 10px 10px 0px#c11a2b, 15px 15px 0px #c11a2b, 20px 20px 0px #c11a2b, 25px 25px 0px #052939, 30px 30px 0px #017e7f, 35px 35px 0px #46b59b, 40px 40px 0px #efa032, 45px 45px 0px #eb452b;
+} */
+
+p {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 0.8rem;
+}
+
+a {
+    color: #d52e3f;
+    text-decoration: none;
+    font-family: 'Anton', cursive;
+    font-size: 1.2rem;
+}
